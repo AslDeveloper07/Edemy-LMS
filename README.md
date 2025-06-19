@@ -40,13 +40,18 @@
 
 Loyihani to‘g‘ri ishlatish uchun quyidagi ma’lumotlarni `.env` faylga yozing:
 
+```
 VITE_CLERK_PUBLISHABLE_KEY=pk_test_Zmx5aW5nLXJpbmd0YWlsLTE4LmNsZXJrLmFjY291bnRzLmRldiQ
 VITE_CURRENCY=$
+```
 
+---
+
+## 📥 O‘rnatish
 
 Terminalga quyidagilarni ketma-ket yozing:
 
-```bash
+```
 # Git orqali loyihani yuklab olish
 git clone https://github.com/AslDeveloper07/Edemy-LMS.git
 
@@ -58,9 +63,9 @@ npm install
 
 # Dasturiy serverni ishga tushurish
 npm run dev
+```
 
-
-
+---
 
 ## 📂 Project Structure
 
@@ -99,10 +104,9 @@ npm run dev
  ├── 📜 package.json
  ├── 📜 tailwind.config.js
  ├── 📜 vite.config.js
-
 ```
 
-
+---
 
 ## 🌟 Features
 
@@ -112,14 +116,14 @@ npm run dev
 ✅ **Progress Tracking** (Course Completion)  
 ✅ **Educator Dashboard** (Monitor students)  
 ✅ **Secure Payments** (Stripe integration)  
-✅ **Responsive Design** (Mobile-friendly UI)  
+✅ **Responsive Design** (Mobile-friendly UI)
 
 ---
 
 ## 📸 Screenshots
 
 | Page | Screenshot |
-|------|-----------|
+|------|------------|
 | **Home Page** | ![Home](https://github.com/user-attachments/assets/03cf6bd7-8c30-4817-ad49-4a8fe8000541) |
 | **Course Page** | ![Course](https://github.com/user-attachments/assets/e42c2660-8271-42ae-b7e3-c5278b6a9cf1) |
 | **My Enrollments** | ![Enrollments](https://github.com/user-attachments/assets/a88cf7c1-cab1-4106-a64d-d7cfd5d9d4b7) |
@@ -129,4 +133,21 @@ npm run dev
 | **My Courses** | ![My Courses](https://github.com/user-attachments/assets/e9f1b602-fc46-4dd7-8833-f1d8b15f43a1) |
 | **Enrolled Students** | ![Enrolled Students](https://github.com/user-attachments/assets/6d118429-4aa0-487e-ad6c-1f37af3f9968) |
 
-![image](https://github.com/user-attachments/assets/6eb66c29-6a73-4f98-9c15-7625a903a109)
+![Full Page](https://github.com/user-attachments/assets/6eb66c29-6a73-4f98-9c15-7625a903a109)
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## 📬 Contact
+
+- **Developer:** AslDeveloper07  
+- **GitHub:** [AslDeveloper07](https://github.com/AslDeveloper07)
+
+---
+
+> Ushbu loyiha ta'lim maqsadida yaratilgan bo‘lib, kelajakda yangi imkoniyatlar bilan boyitiladi.
