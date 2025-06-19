@@ -62,16 +62,20 @@ npm run dev
 
 
 
-| Sahifa                   | Ko‘rinish                                                                                     |
-| ------------------------ | --------------------------------------------------------------------------------------------- |
-| Home Page                | ![Home](https://github.com/user-attachments/assets/06ad6530-020d-4bf2-be90-b6d4550d147c)      |
-| Kurslar ro‘yxati         | ![Courses](https://github.com/user-attachments/assets/d0b7ba1c-9f1a-43dc-87be-e2b52c51c21d)   |
-| Kurs tafsiloti           | ![Details](https://github.com/user-attachments/assets/b7449f63-d050-477c-aad8-c2827fa67b62)   |
-| Video player             | ![Video](https://github.com/user-attachments/assets/98f0c678-507f-4994-8c7d-979a08866c5b)     |
-| Foydalanuvchi boshqaruvi | ![Dashboard](https://github.com/user-attachments/assets/cad83f35-d6f6-45bc-89bc-04e14b0c4b48) |
-| Kurs qo‘shish            | ![Add](https://github.com/user-attachments/assets/0ed30f4a-8357-4fbf-83f2-2080e2ea80f7)       |
-| Mening kurslarim         | ![My Course](https://github.com/user-attachments/assets/d4e56f48-a98a-47b9-a752-167e19d9934d) |
-| Kurs yutuqlari           | ![Progress](https://github.com/user-attachments/assets/69deb4c8-6b04-4daa-a501-59ee9fffb07b)  |
-| Kurs tarkibi             | ![Structure](https://github.com/user-attachments/assets/8deee70a-8d53-4bed-ad2b-2402eff0beb4) |
+## 📸 Screenshots
+| Screenshot | Description |
+|------------|------------|
+| ![image](https://github.com/user-attachments/assets/06ad6530-020d-4bf2-be90-b6d4550d147c) | Home Page |
+| ![image](https://github.com/user-attachments/assets/d0b7ba1c-9f1a-43dc-87be-e2b52c51c21d) | Course Listing |
+| ![image](https://github.com/user-attachments/assets/b7449f63-d050-477c-aad8-c2827fa67b62) | Course Details |
+| ![image](https://github.com/user-attachments/assets/98f0c678-507f-4994-8c7d-979a08866c5b) | Video Player |
+| ![image](https://github.com/user-attachments/assets/cad83f35-d6f6-45bc-89bc-04e14b0c4b48) | User Dashboard |
+| ![image](https://github.com/user-attachments/assets/0ed30f4a-8357-4fbf-83f2-2080e2ea80f7) | Add Course |
+| ![image](https://github.com/user-attachments/assets/d4e56f48-a98a-47b9-a752-167e19d9934d) | My Course |
+| ![image](https://github.com/user-attachments/assets/69deb4c8-6b04-4daa-a501-59ee9fffb07b) | Course Progress |
+| ![image](https://github.com/user-attachments/assets/8deee70a-8d53-4bed-ad2b-2402eff0beb4) | Course Structure |
 
+
+
+![image](https://github.com/user-attachments/assets/ad65cf6d-bf8f-43c4-b735-64b767cc984e)
 
