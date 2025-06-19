@@ -62,20 +62,71 @@ npm run dev
 
 
 
+## 📂 Project Structure
+
+### **Frontend (`client/`)**
+```
+📦 client
+ ├── 📂 src
+ │   ├── 📂 assets
+ │   ├── 📂 components
+ │   │   ├── 📂 educator
+ │   │   │   ├── Footer.jsx
+ │   │   │   ├── Navbar.jsx
+ │   │   │   ├── Sidebar.jsx
+ │   │   ├── 📂 student
+ │   │   │   ├── Logger.jsx
+ │   ├── 📂 context
+ │   │   ├── AppContext.jsx
+ │   ├── 📂 pages
+ │   │   ├── 📂 educator
+ │   │   │   ├── AddCourse.jsx
+ │   │   │   ├── Dashboard.jsx
+ │   │   │   ├── Educator.jsx
+ │   │   │   ├── MyCourses.jsx
+ │   │   │   ├── StudentsEnrolled.jsx
+ │   │   ├── 📂 student
+ │   │   │   ├── CourseDetails.jsx
+ │   │   │   ├── CoursesList.jsx
+ │   │   │   ├── Home.jsx
+ │   │   │   ├── MyEnrollMents.jsx
+ │   │   │   ├── Player.jsx
+ │   │   ├── App.jsx
+ │   │   ├── index.css
+ │   │   ├── main.jsx
+ ├── 📜 .env
+ ├── 📜 .gitignore
+ ├── 📜 package.json
+ ├── 📜 tailwind.config.js
+ ├── 📜 vite.config.js
+
+```
+
+
+
+## 🌟 Features
+
+✅ **User Authentication** (Signup, Login, Clerk Integration)  
+✅ **Course Management** (Add, Edit, Delete, Enroll)  
+✅ **Video Streaming** (Embedded YouTube player)  
+✅ **Progress Tracking** (Course Completion)  
+✅ **Educator Dashboard** (Monitor students)  
+✅ **Secure Payments** (Stripe integration)  
+✅ **Responsive Design** (Mobile-friendly UI)  
+
+---
+
 ## 📸 Screenshots
-| Screenshot | Description |
-|------------|------------|
-| ![image](https://github.com/user-attachments/assets/06ad6530-020d-4bf2-be90-b6d4550d147c) | Home Page |
-| ![image](https://github.com/user-attachments/assets/d0b7ba1c-9f1a-43dc-87be-e2b52c51c21d) | Course Listing |
-| ![image](https://github.com/user-attachments/assets/b7449f63-d050-477c-aad8-c2827fa67b62) | Course Details |
-| ![image](https://github.com/user-attachments/assets/98f0c678-507f-4994-8c7d-979a08866c5b) | Video Player |
-| ![image](https://github.com/user-attachments/assets/cad83f35-d6f6-45bc-89bc-04e14b0c4b48) | User Dashboard |
-| ![image](https://github.com/user-attachments/assets/0ed30f4a-8357-4fbf-83f2-2080e2ea80f7) | Add Course |
-| ![image](https://github.com/user-attachments/assets/d4e56f48-a98a-47b9-a752-167e19d9934d) | My Course |
-| ![image](https://github.com/user-attachments/assets/69deb4c8-6b04-4daa-a501-59ee9fffb07b) | Course Progress |
-| ![image](https://github.com/user-attachments/assets/8deee70a-8d53-4bed-ad2b-2402eff0beb4) | Course Structure |
 
+| Page | Screenshot |
+|------|-----------|
+| **Home Page** | ![Home](https://github.com/user-attachments/assets/03cf6bd7-8c30-4817-ad49-4a8fe8000541) |
+| **Course Page** | ![Course](https://github.com/user-attachments/assets/e42c2660-8271-42ae-b7e3-c5278b6a9cf1) |
+| **My Enrollments** | ![Enrollments](https://github.com/user-attachments/assets/a88cf7c1-cab1-4106-a64d-d7cfd5d9d4b7) |
+| **Player Page** | ![Player](https://github.com/user-attachments/assets/cdc8fb2a-6f44-416f-b4bd-2f35b7acfbbd) |
+| **Educator Dashboard** | ![Dashboard](https://github.com/user-attachments/assets/6c3bec05-805e-4652-ac51-113fd870b267) |
+| **Add Course** | ![Add Course](https://github.com/user-attachments/assets/ee846dba-7b14-4006-ae95-8ff76402ed8d) |
+| **My Courses** | ![My Courses](https://github.com/user-attachments/assets/e9f1b602-fc46-4dd7-8833-f1d8b15f43a1) |
+| **Enrolled Students** | ![Enrolled Students](https://github.com/user-attachments/assets/6d118429-4aa0-487e-ad6c-1f37af3f9968) |
 
-
-![image](https://github.com/user-attachments/assets/ad65cf6d-bf8f-43c4-b735-64b767cc984e)
-
+![image](https://github.com/user-attachments/assets/6eb66c29-6a73-4f98-9c15-7625a903a109)
