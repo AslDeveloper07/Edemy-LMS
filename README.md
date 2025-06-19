@@ -1,189 +1,77 @@
-
 <div align="center">
   
 ![favicon](https://github.com/user-attachments/assets/ba86af86-a98e-4842-9cc4-5871c5ef234b)
 
 </div>
 
-# Edemy LMS 🎓 - A Modern Learning Management System
-
-
-Edemy LMS is a full-stack learning management system (LMS) that provides educators and students with a seamless e-learning experience. Built using modern web technologies, it includes user authentication, course management, video streaming, and progress tracking.
-
-## 🚀 Tech Stack
-
-### Frontend:
-- **React** (via Vite) ⚡
-- **React Router DOM** for navigation
-- **React Toastify** for notifications
-- **Framer Motion** for animations
-- **Quill** for rich text editing
-- **Axios** for API requests
-- **RC Progress** for progress tracking
-- **React YouTube** for video embedding
-- **Clerk Authentication** for user management
-
-### Backend:
-- **Node.js** & **Express.js** 🚀
-- **MongoDB** & **Mongoose** for database
-- **Cloudinary** for media storage
-- **Multer** for file uploads
-- **Stripe** for payment processing
-- **Cors** for cross-origin requests
-- **Dotenv** for environment variables
-- **Nodemon** for development
+# Edemy LMS - A Modern Learning Management System
 
 ---
 
-## 📂 Project Structure
+## 📌 Overview
 
-### **Frontend (`client/`)**
-```
-📦 client
- ├── 📂 src
- │   ├── 📂 assets
- │   ├── 📂 components
- │   │   ├── 📂 educator
- │   │   │   ├── Footer.jsx
- │   │   │   ├── Navbar.jsx
- │   │   │   ├── Sidebar.jsx
- │   │   ├── 📂 student
- │   │   │   ├── Logger.jsx
- │   ├── 📂 context
- │   │   ├── AppContext.jsx
- │   ├── 📂 pages
- │   │   ├── 📂 educator
- │   │   │   ├── AddCourse.jsx
- │   │   │   ├── Dashboard.jsx
- │   │   │   ├── Educator.jsx
- │   │   │   ├── MyCourses.jsx
- │   │   │   ├── StudentsEnrolled.jsx
- │   │   ├── 📂 student
- │   │   │   ├── CourseDetails.jsx
- │   │   │   ├── CoursesList.jsx
- │   │   │   ├── Home.jsx
- │   │   │   ├── MyEnrollMents.jsx
- │   │   │   ├── Player.jsx
- │   │   ├── App.jsx
- │   │   ├── index.css
- │   │   ├── main.jsx
- ├── 📜 .env
- ├── 📜 .gitignore
- ├── 📜 package.json
- ├── 📜 tailwind.config.js
- ├── 📜 vite.config.js
-
-```
-
-### **Backend (`server/`)**
-```
-📦 server
- ├── 📂 configs
- │   ├── cloudinary.js
- │   ├── mongodb.js
- │   ├── multer.js
- ├── 📂 controllers
- │   ├── courseController.js
- │   ├── educatorController.js
- │   ├── userController.js
- │   ├── webhooks.js
- ├── 📂 middlewares
- │   ├── authMiddleware.js
- ├── 📂 models
- │   ├── Course.js
- │   ├── CourseProgress.js
- │   ├── Purchase.js
- │   ├── User.js
- ├── 📂 routes
- │   ├── courseRoute.js
- │   ├── educatorRoutes.js
- │   ├── userRoutes.js
- ├── 📜 .env
- ├── 📜 .gitignore
- ├── 📜 package.json
- ├── 📜 server.js
- ├── 📜 vercel.json
-```
+**Edemy LMS** — bu zamonaviy, yengil va foydalanuvchi uchun qulay onlayn ta'lim platformasi. Ushbu tizim orqali foydalanuvchilar kurslarga yozilish, video darslarni ko‘rish, va o‘z bilim darajasini kuzatib borish imkoniyatiga ega.
 
 ---
 
-## 🌟 Features
+## 🚀 Xususiyatlar
 
-✅ **User Authentication** (Signup, Login, Clerk Integration)  
-✅ **Course Management** (Add, Edit, Delete, Enroll)  
-✅ **Video Streaming** (Embedded YouTube player)  
-✅ **Progress Tracking** (Course Completion)  
-✅ **Educator Dashboard** (Monitor students)  
-✅ **Secure Payments** (Stripe integration)  
-✅ **Responsive Design** (Mobile-friendly UI)  
+- Kurslarni qo‘shish, tahrirlash va o‘chirish
+- YouTube videolarni dars sifatida qo‘shish
+- Foydalanuvchi ro‘yxatdan o‘tishi / tizimga kirishi
+- Kurs bo‘yicha o‘zlashtirishni kuzatish
+- Kurslarni izlash va filtrlash
+- Qorong‘i (Dark) rejim
+- Yengil va tezkor platforma (Vite asosida)
 
 ---
 
-## 📸 Screenshots
+## 🛠️ Ishlatilgan texnologiyalar
 
-| Page | Screenshot |
-|------|-----------|
-| **Home Page** | ![Home](https://github.com/user-attachments/assets/03cf6bd7-8c30-4817-ad49-4a8fe8000541) |
-| **Course Page** | ![Course](https://github.com/user-attachments/assets/e42c2660-8271-42ae-b7e3-c5278b6a9cf1) |
-| **My Enrollments** | ![Enrollments](https://github.com/user-attachments/assets/a88cf7c1-cab1-4106-a64d-d7cfd5d9d4b7) |
-| **Player Page** | ![Player](https://github.com/user-attachments/assets/cdc8fb2a-6f44-416f-b4bd-2f35b7acfbbd) |
-| **Educator Dashboard** | ![Dashboard](https://github.com/user-attachments/assets/6c3bec05-805e-4652-ac51-113fd870b267) |
-| **Add Course** | ![Add Course](https://github.com/user-attachments/assets/ee846dba-7b14-4006-ae95-8ff76402ed8d) |
-| **My Courses** | ![My Courses](https://github.com/user-attachments/assets/e9f1b602-fc46-4dd7-8833-f1d8b15f43a1) |
-| **Enrolled Students** | ![Enrolled Students](https://github.com/user-attachments/assets/6d118429-4aa0-487e-ad6c-1f37af3f9968) |
+- **Frontend:** React.js, Vite, TailwindCSS
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB
+- **Authentication:** Clerk (yoki Firebase/Auth)
+- **Deployment:** Vercel yoki Netlify
 
-![image](https://github.com/user-attachments/assets/6eb66c29-6a73-4f98-9c15-7625a903a109)
+---
 
+## ⚙️ Muhit sozlamalari (`.env` fayl)
 
+Loyihani to‘g‘ri ishlatish uchun quyidagi ma’lumotlarni `.env` faylga yozing:
 
-
+VITE_CLERK_PUBLISHABLE_KEY=pk_test_Zmx5aW5nLXJpbmd0YWlsLTE4LmNsZXJrLmFjY291bnRzLmRldiQ
+VITE_CURRENCY=$
 
 
+Terminalga quyidagilarni ketma-ket yozing:
 
-## ⚡ Installation & Setup
-
-### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/Gyanthakur/Edemy-LMS.git
-cd edemy-lms
-```
+# Git orqali loyihani yuklab olish
+git clone https://github.com/AslDeveloper07/Edemy-LMS.git
 
-### 2️⃣ Install Dependencies
+# Loyiha papkasiga kirish
+cd edemy-frontend
 
-#### Frontend:
-```bash
-cd client
+# Barcha kerakli kutubxonalarni o‘rnatish
 npm install
+
+# Dasturiy serverni ishga tushurish
 npm run dev
-```
 
-#### Backend:
-```bash
-cd server
-npm install
-npm start
-```
 
-### 3️⃣ Setup Environment Variables
-Create a `.env` file in both `client/` and `server/` directories and add required credentials (MongoDB, Cloudinary, Clerk, Stripe, etc.).
 
----
 
-## 🔥 Deployment
+| Sahifa                   | Ko‘rinish                                                                                     |
+| ------------------------ | --------------------------------------------------------------------------------------------- |
+| Home Page                | ![Home](https://github.com/user-attachments/assets/06ad6530-020d-4bf2-be90-b6d4550d147c)      |
+| Kurslar ro‘yxati         | ![Courses](https://github.com/user-attachments/assets/d0b7ba1c-9f1a-43dc-87be-e2b52c51c21d)   |
+| Kurs tafsiloti           | ![Details](https://github.com/user-attachments/assets/b7449f63-d050-477c-aad8-c2827fa67b62)   |
+| Video player             | ![Video](https://github.com/user-attachments/assets/98f0c678-507f-4994-8c7d-979a08866c5b)     |
+| Foydalanuvchi boshqaruvi | ![Dashboard](https://github.com/user-attachments/assets/cad83f35-d6f6-45bc-89bc-04e14b0c4b48) |
+| Kurs qo‘shish            | ![Add](https://github.com/user-attachments/assets/0ed30f4a-8357-4fbf-83f2-2080e2ea80f7)       |
+| Mening kurslarim         | ![My Course](https://github.com/user-attachments/assets/d4e56f48-a98a-47b9-a752-167e19d9934d) |
+| Kurs yutuqlari           | ![Progress](https://github.com/user-attachments/assets/69deb4c8-6b04-4daa-a501-59ee9fffb07b)  |
+| Kurs tarkibi             | ![Structure](https://github.com/user-attachments/assets/8deee70a-8d53-4bed-ad2b-2402eff0beb4) |
 
-This project is set up for deployment on **Vercel**.
-
-### Deploy Backend
-```bash
-cd server
-vercel --prod
-```
-
-### Deploy Frontend
-```bash
-cd client
-vercel --prod
-```
-
----
 
